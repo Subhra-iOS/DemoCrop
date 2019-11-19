@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoImageResize" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TEy-Bk-qZK">
+                                <rect key="frame" x="10" y="10" width="814" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="aXR-cQ-R0A"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fr-UG-ywr" customClass="ARCRoundRectView" customModule="DemoImageResize" customModuleProvider="target">
+                                <rect key="frame" x="50" y="433" width="734" height="100"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9qF-xS-gWF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TEy-Bk-qZK" secondAttribute="trailing" constant="10" id="8zK-j5-7Io"/>
+                            <constraint firstItem="TEy-Bk-qZK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="CAh-yb-OSQ"/>
+                            <constraint firstItem="5fr-UG-ywr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="EMv-8B-DYI"/>
+                            <constraint firstItem="TEy-Bk-qZK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sha-wO-xOo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5fr-UG-ywr" secondAttribute="trailing" constant="50" id="WJO-Xc-oPa"/>
+                            <constraint firstItem="TEy-Bk-qZK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="bey-tV-k3v"/>
+                            <constraint firstItem="5fr-UG-ywr" firstAttribute="top" secondItem="TEy-Bk-qZK" secondAttribute="bottom" constant="123" id="dFz-la-bGo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="demoImageView" destination="TEy-Bk-qZK" id="UUf-5q-mxP"/>
+                        <outlet property="demoRoundRectView" destination="5fr-UG-ywr" id="jU3-1z-yen"/>
+                        <outlet property="imageViewHeight" destination="aXR-cQ-R0A" id="rIb-Qo-CPm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.41007194244605" y="126.2589928057554"/>
+        </scene>
+    </scenes>
+</document>
