@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A1F74082384189500CF7F3A /* ARCRoundRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F74072384189500CF7F3A /* ARCRoundRectView.swift */; };
+		2A1F74082384189500CF7F3A /* SRRoundRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F74072384189500CF7F3A /* SRRoundRectView.swift */; };
 		2A22FBC023811EA3007507C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22FBBF23811EA3007507C0 /* AppDelegate.swift */; };
 		2A22FBC223811EA3007507C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22FBC123811EA3007507C0 /* SceneDelegate.swift */; };
 		2A22FBC423811EA3007507C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22FBC323811EA3007507C0 /* ViewController.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A1F74072384189500CF7F3A /* ARCRoundRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCRoundRectView.swift; sourceTree = "<group>"; };
+		2A1F74072384189500CF7F3A /* SRRoundRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRoundRectView.swift; sourceTree = "<group>"; };
 		2A22FBBC23811EA3007507C0 /* DemoImageResize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoImageResize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A22FBBF23811EA3007507C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A22FBC123811EA3007507C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 				2A22FBBF23811EA3007507C0 /* AppDelegate.swift */,
 				2A22FBC123811EA3007507C0 /* SceneDelegate.swift */,
 				2A22FBC323811EA3007507C0 /* ViewController.swift */,
-				2A1F74072384189500CF7F3A /* ARCRoundRectView.swift */,
+				2A1F74072384189500CF7F3A /* SRRoundRectView.swift */,
 				2A22FBC523811EA3007507C0 /* Main.storyboard */,
 				2A22FBC823811EA4007507C0 /* Assets.xcassets */,
 				2A22FBCA23811EA4007507C0 /* LaunchScreen.storyboard */,
@@ -160,7 +160,7 @@
 				2A22FBC023811EA3007507C0 /* AppDelegate.swift in Sources */,
 				2A22FBC223811EA3007507C0 /* SceneDelegate.swift in Sources */,
 				2A22FBD423811EC2007507C0 /* UIImage+Extension.swift in Sources */,
-				2A1F74082384189500CF7F3A /* ARCRoundRectView.swift in Sources */,
+				2A1F74082384189500CF7F3A /* SRRoundRectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

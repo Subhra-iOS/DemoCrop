@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var demoImageView: UIImageView!
     @IBOutlet weak var imageViewHeight: NSLayoutConstraint!
     
-    @IBOutlet weak var demoRoundRectView: ARCRoundRectView!
+    @IBOutlet weak var demoRoundRectView: SRRoundRectView!
     private var imageViewWidth : CGFloat = UIScreen.main.bounds.size.width
     
     override func viewDidLoad() {

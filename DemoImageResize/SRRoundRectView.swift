@@ -1,5 +1,5 @@
 //
-//  ARCRoundRectView.swift
+//  SRRoundRectView.swift
 //  DemoImageResize
 //
 //  Created by Subhra Roy on 19/11/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ARCRoundRectView: UIView {
+class SRRoundRectView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.

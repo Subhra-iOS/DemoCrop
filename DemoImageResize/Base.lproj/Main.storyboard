@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="300" id="aXR-cQ-R0A"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fr-UG-ywr" customClass="ARCRoundRectView" customModule="DemoImageResize" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fr-UG-ywr" customClass="SRRoundRectView" customModule="DemoImageResize" customModuleProvider="target">
                                 <rect key="frame" x="50" y="433" width="734" height="100"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
